@@ -64,3 +64,13 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+
+forge script --private-key 0x00000000000000000000000000000000000000000000000000000000002f7c57 --broadcast -vvvv script/MyOapp.s.sol --slow --rpc-url https://sepolia.base.org --etherscan-api-key KYYDIZTCJU1WU6UCFIDFQH4NXMZG9JXPC1 --ffi --verify
+https://sepolia.basescan.org/address/0x303ed4a38df7b216588062162dd3c81c90fdf053
+
+Chain id: 11155111 - Ethereum Sepolia
+forge script --private-key 0x00000000000000000000000000000000000000000000000000000000002f7c57 --broadcast -vvvv script/MyOapp.s.sol --slow --rpc-url https://sepolia.drpc.org --etherscan-api-key 846J6DAXY1RYK7XSPCD2JP6YGEDEPCCKGP --ffi --verify
+https://sepolia.etherscan.io/address/0xe6dfc49de8abed0d4fa282ceab5e7b33cd5d0b7c
+
+1000000000000000
